@@ -1,0 +1,19 @@
+name: Cmake CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: cmake 
+      run: cmake .
+    - name: make
+      run: make
