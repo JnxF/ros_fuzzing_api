@@ -7,13 +7,17 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/JnxF/ros_fuzzing_api.svg)](https://GitHub.com/JnxF/ros_fuzzing_api/graphs/contributors/)
 [![GitHub license](http://img.shields.io/github/license/JnxF/ros_fuzzing_api.svg)](https://github.com/JnxF/ros_fuzzing_api/blob/master/LICENSE)
 
-Foobar is a Python library for dealing with word pluralization.
+Header-only library to generate C++ type primitives for fuzzing ROS 2. This library conforms to the [official documentation](https://design.ros2.org/articles/generated_interfaces_cpp.html#mapping-of-primitive-types).
 
 ## Installation
 
 Clone this repository and link it appropriately in a `CMakeLists.txt` file with the `fuzzing_api_library` cmake library.
 
 ## Usage
+
+Import the [fuzzing_api.hpp](src/fuzzing_api.hpp) file and pass the variable by reference to be read. All the functions return a boolean indicating whether the reading was successful or not, so using them inside of `if` and `while` statements is useful. Check the file for the whole list.
+
+### Examples
 
 Read one value:
 
