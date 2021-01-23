@@ -43,13 +43,12 @@ Read as many pairs of values as possible:
 int main() {
     int8_t a, b;
     while (getInt8(a) && getInt8(b)) {
-        std::cout << "a = " << a << std::endl;
-        std::cout << "b = " << a << std::endl;
+        std::cout << "Pair: (a, b) = (" << a << ", " << b << ")" std::endl;
     }
 }
 ```
 
-Reading a string of a constrained size (always recommended with strings):
+Reading a string of a constrained size (always recommended with `string`s):
 
 ```c++
 #include <iostream>
