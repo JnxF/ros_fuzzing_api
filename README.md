@@ -1,5 +1,5 @@
 # ROS Fuzzing API
-
+![Cmake CI](https://github.com/JnxF/ros_fuzzing_api/workflows/Cmake%20CI/badge.svg)
 ![Hits](https://visitor-badge.glitch.me/badge?page_id=jnxf._ros_fuzzing_api)
 [![GitHub stars](https://img.shields.io/github/stars/JnxF/ros_fuzzing_api.svg)](https://GitHub.com/JnxF/ros_fuzzing_api/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/JnxF/ros_fuzzing_api.svg)](https://GitHub.com/JnxF/ros_fuzzing_api/network/)
