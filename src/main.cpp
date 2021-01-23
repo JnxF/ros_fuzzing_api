@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <cassert>
 #include "fuzzing_api.hpp"
 
 void fuzz_nth_option(uint8_t fuzzing_option) {
