@@ -8,7 +8,7 @@ msg () {
 }
 
 ### CONFIGURATION
-DURATION=20s
+DURATION=10m
 
 ### COMMANDS
 
